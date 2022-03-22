@@ -14,3 +14,4 @@ To meet additional time requirements of the ktp server we send in this version t
 
 # The ktp_north plugin:
 The plugin sends datapoints with the string of Wma_filter to the location specified at System_id of the ktp-server.
+If the datapoint is an unfiltered value (during the initialization of the service), it be processed as ‘sent’ in order to empty the buffer of Fledge. 
