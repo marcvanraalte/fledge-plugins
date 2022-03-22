@@ -1,5 +1,5 @@
 # fledge-plugins
-To setup a Fledge pipeline to send from the test rack measurements to the ktp-server (korte termijn) we use the wma_filter plugin and the ktp_north plugin. For the south plugin we use the iec61850 plugin:
+To setup a Fledge pipeline to send from the test rack measurements to the ktp-server (korte termijn server) we use the wma_filter plugin and the ktp_north plugin. For the south plugin we use the iec61850 plugin:
 
 https://github.com/fledge-iot/fledge-south-iec61850
 
