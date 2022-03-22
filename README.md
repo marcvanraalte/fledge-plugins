@@ -3,7 +3,7 @@ To setup a Fledge pipeline to send from the test rack measurements to the ktp-se
 
 https://github.com/fledge-iot/fledge-south-iec61850
 
-To establish an approximate one second ‘requesting’ interval and to reduce the processor load when the plugin is out of connection, we changed  the timespan for 4 milliseconds to 1000 miliseconds. The lines 164 and 168 in iec61850.cpp where changed to: 
+To establish an approximate one second ‘requesting’ interval and to reduce the processor load when the plugin is out of connection, we changed  the timespan for 4 milliseconds to 1000 miliseconds. The lines 164 and 168 in iec61850.cpp were changed to: 
 
 std::chrono::milliseconds timespan(1000);
 
