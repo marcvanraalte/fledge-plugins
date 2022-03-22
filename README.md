@@ -10,4 +10,4 @@ std::chrono::milliseconds timespan(1000);
 # Windowed moving average wma_filter:
 The purpose of the wma filter is to compute for each data point the n-windowed average based on the n-1 datapoints ahead. The computed averages is tagged with the WMA datapoint string and sent to the north bridge at an interval of n points. The timing is based on a datapoint per second. Then, e.g. a five minute windowed average corresponds to a window size of 300 points and sending upward at an interval of 300 points (modulo 300). The north plugin will select the filtered value according to the WMA datapoint string and sends it to the required ktp address.
 
-To meet additional time requirements of the ktp server we send in this version the data onward at a rate of modulo N//2. Hence, in our case, a 5 minute average and #the 5 minute average is considered.
+To meet additional time requirements of the ktp server we send in this version the data onward at a rate of modulo N//2. Hence, in our case, a 5 minute average and the 5 minute average is considered.
