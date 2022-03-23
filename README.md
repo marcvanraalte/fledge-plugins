@@ -14,4 +14,4 @@ To meet additional time requirements of the OpenSTEF server we send in this vers
 
 # The ktp_north plugin:
 The plugin sends datapoints with the string of Wma_filter to the location specified at System_id of the OpenSTEF server.
-If the datapoint is an unfiltered value (during the initialization of the service), it be processed as ‘sent’ in order to empty the buffer of Fledge. 
+If the datapoint is an unfiltered value (during the initialization of the service), it will be processed as ‘sent’ in order to empty the buffer of Fledge. 
